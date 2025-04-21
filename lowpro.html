@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Budget Tracker - Low Fidelity</title>
+</head>
+<body>
+  <header>
+    <h1>Budget Tracker</h1>
+    <nav>
+      <button>Dashboard</button>
+      <button>Goals</button>
+      <button>Community</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Dashboard Section -->
+    <section>
+      <h2>Budget Overview</h2>
+      <div>
+        <div>
+          <h3>Total Income</h3>
+          <p>₹0.00</p>
+        </div>
+        <div>
+          <h3>Total Expenses</h3>
+          <p>₹0.00</p>
+        </div>
+        <div>
+          <h3>Balance</h3>
+          <p>₹0.00</p>
+        </div>
+      </div>
+
+      <h3>Add Transaction</h3>
+      <form>
+        <input type="text" placeholder="Description" />
+        <input type="number" placeholder="Amount" />
+        <select>
+          <option>Type</option>
+          <option>Income</option>
+          <option>Expense</option>
+          <option>Savings</option>
+          <option>Investment</option>
+        </select>
+        <button>Add</button>
+      </form>
+
+      <h3>Transactions</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Type</th>
+            <th>Date</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Transaction rows go here -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Goals Section -->
+    <section>
+      <h2>Financial Goals</h2>
+      <form>
+        <input type="text" placeholder="Goal Name" />
+        <input type="number" placeholder="Target Amount" />
+        <button>Add Goal</button>
+      </form>
+      <div>
+        <!-- Goals go here -->
+      </div>
+    </section>
+
+    <!-- Community Section -->
+    <section>
+      <h2>Community</h2>
+      <p>Connect with others and share tips.</p>
+      <ul>
+        <li>Tip 1: Set realistic goals</li>
+        <li>Tip 2: Join challenges</li>
+        <li>Tip 3: Share success stories</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Budget Tracker</p>
+  </footer>
+</body>
+</html>
